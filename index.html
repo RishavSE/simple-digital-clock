@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Digital Clock</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="clock-container">
+      <h1 id="clock-time">00:00:00</h1>
+      <p id="clock-date">Loading date...</p>
+
+      <div class="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="toggle-format" />
+          <span class="slider"></span>
+        </label>
+        <span id="format-label">24-Hour</span>
+      </div>
+    </div>
+
+    <audio
+      id="tick-sound"
+      src="slow-cinematic-clock-ticking-357979 (1).mp3"
+      preload="auto"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
