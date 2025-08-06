@@ -20,7 +20,7 @@ JavaScript (Vanilla)
 
 🚀 How to Use Clone the repository
 
-bash: git clone https://github.com/your-username/simple-digital-clock.git cd simple-digital-clock Open index.html in your browser You can also use Live Server in VS Code.
+bash: git clone https://github.com/rishavSE/simple-digital-clock.git cd simple-digital-clock Open index.html in your browser You can also use Live Server in VS Code.
 
 🎨 Customization You can easily:
 
